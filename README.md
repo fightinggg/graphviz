@@ -9,5 +9,5 @@ docker run -it --rm -v $PWD:$PWD -w $PWD fightinggg/graphviz dot input.dot -Tsvg
 
 # alias
 ```
-alias dot="docker run -it --rm -v $PWD:$PWD -w $PWD fightinggg/graphviz dot"
+alias dot='docker run -it --rm -v $PWD:$PWD -w $PWD fightinggg/graphviz dot'
 ```
